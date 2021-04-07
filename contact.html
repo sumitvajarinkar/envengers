@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./logo/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/contact.css">
+  <title>Greenies</title>
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_FU6FGYaKZI4xrtYg5ZjDn");
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+      <div></div>
+    </div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://rzp.io/l/y0jED1vKn" target="_blank">Donate</a></li>
+            <li><a href="#">Collaborate</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+
+  <form class="contact">
+    <h1 id="formtitle"></h1>
+    <div class="text">
+      <label>Full name :</label>
+      <input type="text" id="fname" placeholder="Enter your good name !" />
+    </div>
+    <div class="text">
+      <label>Email :</label>
+      <input type="email" id="mail" placeholder="Enter your email ID" />
+    </div>
+    <div class="text">
+      <label>Mobile no. :</label>
+      <input type="number" id="mob" placeholder="Enter your mobile number " />
+    </div>
+    <div class="text">
+      <label>Message :</label>
+      <textarea type="text" id="msg" placeholder="Enter your message "></textarea>
+    </div>
+    <div onclick="SendMail()" class="button">Send</div>
+  </form>
+
+  <!-- Footer -->
+
+  <footer>
+    <p>
+    <h4>Copyright @2021 | Designed by Team <span style="color: green;">Greenies</span>&nbsp;<img
+        src="./logo/favicon.png" alt=""></a></h4>
+    <a href="">Source Code&nbsp;<img src="./logo/source.png" alt=""></a>
+    </p>
+  </footer>
+  <!-- Typewriter library -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- External JS file -->
+  <script src="./js/contact.js"></script>
+</body>
+
+</html>
