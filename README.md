@@ -6,7 +6,7 @@
 <span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span>
 <p style="font-weight:bold; color: gray;">Libraries and API used :</p>
 <ol>
-    <li><a href="https://github.com/tameemsafi/typewriterjs"></a>TypewriterJS</li>
-    <li><a href="https://www.emailjs.com/"></a>EmailJS</li>
-    <li><a href="https://razorpay.com/"></a>Razorpay API</li>
+    <li><a href="https://github.com/tameemsafi/typewriterjs">TypewriterJS</a></li>
+    <li><a href="https://www.emailjs.com/">EmailJS</a></li>
+    <li><a href="https://razorpay.com/">Razorpay API</a></li>
 </ol>
