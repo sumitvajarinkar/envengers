@@ -7,7 +7,7 @@
 <br>
 <p style="font-weight:bold; color: gray;">Libraries and API used :</p>
 <ol>
-    <li><a href="https://github.com/tameemsafi/typewriterjs">TypewriterJS</a></li>
-    <li><a href="https://www.emailjs.com/">EmailJS</a></li>
-    <li><a href="https://razorpay.com/">Razorpay API</a></li>
+    <li><a href="https://github.com/tameemsafi/typewriterjs" target="_blank">TypewriterJS</a></li>
+    <li><a href="https://www.emailjs.com/" target="_blank">EmailJS</a></li>
+    <li><a href="https://razorpay.com/" target="_blank">Razorpay API</a></li>
 </ol>
