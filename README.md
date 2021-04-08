@@ -3,7 +3,7 @@
 
 
 <p style="font-weight:bold; color: gray;">Technologies :</p>
-<span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span>
+<span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span><br>
 <br>
 <p style="font-weight:bold; color: gray;">Libraries and API used :</p>
 <ol>
