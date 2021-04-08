@@ -2,7 +2,7 @@
 <h3>Live project <a href="https://sumitvajarinkar.github.io/Greenies/" target="_blank">Link</a></h3>
 
 
-<p style="font-weight:bold; color: gray;">Technologies :</p>
+<p style="font-weight:bold; color: gray;">Technologies used:</p>
 <span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span><br>
 <br>
 <p style="font-weight:bold; color: gray;">Libraries and API used :</p>
