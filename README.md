@@ -4,6 +4,7 @@
 
 <p style="font-weight:bold; color: gray;">Technologies :</p>
 <span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span>
+<br>
 <p style="font-weight:bold; color: gray;">Libraries and API used :</p>
 <ol>
     <li><a href="https://github.com/tameemsafi/typewriterjs">TypewriterJS</a></li>
