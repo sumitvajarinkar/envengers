@@ -233,6 +233,7 @@ footer {
 
   /* Media queries */
 @media screen and (max-width: 768px) {
+	/* Navbar */
 	nav #logo {
 		float: none;
 		width: auto;
@@ -285,9 +286,11 @@ footer {
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
 	}
+	/* Header 1 */
 	.info .column{
 		margin-top: .9em;
 	}
+	/* Header 2 */
 	.bg-inner h2{
 		margin-top: 2em;
 		margin-bottom: .5em;
@@ -307,6 +310,7 @@ footer {
 	}
 }
 @media screen and (min-width: 768px){
+	/* Header 1 */
 	.info .column{
 		margin-top: 6em;
 	}
