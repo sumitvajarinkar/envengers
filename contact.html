@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./logo/favicon.png" type="image/x-icon">
+  <title>Greenies</title>
+  <!-- CSS file -->
+  <link rel="stylesheet" href="./css/contact.css">
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_FU6FGYaKZI4xrtYg5ZjDn");
+    })();
+    </script>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <input id="nav-toggle" type="checkbox">
+    <h1 id="logo"></h1>
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://rzp.io/l/y0jED1vKn" target="_blank">Donate</a></li>
+      <li><a href="https://greenies-chatapp.herokuapp.com/" target="_blank">Collaborate</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+  </nav>
+  
+  <!-- Form -->
+  <div id="error"></div>
+  <form class="contact">
+    <h1 id="formtitle"></h1>
+    <div class="text">
+      <label>Full name :</label>
+      <input type="text" id="fname" placeholder="Enter your good name !"/>
+    </div>
+    <div class="text">
+      <label>Email :</label>
+      <input type="email" id="mail" placeholder="Enter your email ID"/>
+    </div>
+    <div class="text">
+      <label>Mobile no. :</label>
+      <input type="number" id="mob" placeholder="Enter your mobile number"/>
+    </div>
+    <div class="text">
+      <label>Message :</label>
+      <textarea type="text" id="msg" placeholder="Enter your message"></textarea>
+    </div>
+    <!-- <div onclick="SendMail()" class="button" required>Send</div> -->
+    <button class="button" type="submit" onclick="SendMail()">Send</button>
+  </form>
+  
+   <!-- Footer -->
+  
+   <footer>
+    <p>
+    <h4>Copyright 2021 | By Team <span style="color: greenyellow;">Greenies</span>&nbsp;<img
+        src="./logo/favicon.png" alt=""></a></h4>
+    </p>
+  </footer>
+  
+  <!-- Typewriter library -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- External JS file -->
+  <script src="./js/contact.js"></script>
+  </body>
+
+</html>
