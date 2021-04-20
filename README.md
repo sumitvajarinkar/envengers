@@ -10,4 +10,6 @@
     <li><a href="https://github.com/tameemsafi/typewriterjs" target="_blank">TypewriterJS</a></li>
     <li><a href="https://www.emailjs.com/" target="_blank">EmailJS</a></li>
     <li><a href="https://razorpay.com/" target="_blank">Razorpay API</a></li>
+    <li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+    <li><a href="https://www.flaticon.com/?k=1610076745299" target="_blank">Flaticon</a></li>
 </ol>
