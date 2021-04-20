@@ -2,7 +2,7 @@
 <h3>A Responsive website for an environment project where people who want to contribute to environment conservation can donate money for it in donate tab and also discuss it with their respective people in their area through a real-time chat app through collaborate tab.</h3>
 
 <p>Main theme :
-1. Donation: To raise funds for the development of environmental bodies in the areas.
+1. Donation: To raise funds for the development of environmental bodies in the areas.<br>
 2. Chatapp: Realtime chat app to collaborate with people from various regions for contributing to the environment.</p>
 <h4>Live project <a href="https://greenies.me/" target="_blank">greenies.me</a></h4>
 
