@@ -1,5 +1,5 @@
 <h2>Contribute to Environment Conservation - Environment Science Mini Project</h2>
-<h3>Live project <a href="https://sumitvajarinkar.github.io/Greenies/" target="_blank">Link</a></h3>
+<h3>Live project <a href="https://greenies.me/" target="_blank">greenies.me</a></h3>
 
 
 <p style="font-weight:bold; color: gray;">Technologies used:</p>
