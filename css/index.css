@@ -188,7 +188,7 @@ nav .icon-burger .line {
 .btn {
 	display: flex;
 	border: none;
-	background: linear-gradient(90deg,#0162c8,#55e7fc);
+	background: linear-gradient(90deg,#755bea,#ff72c0);
 	color: white;
 	padding: .5em .5em;
 	margin-top: 2em;
@@ -204,7 +204,8 @@ nav .icon-burger .line {
 }
 .btn:hover {
   opacity: 0.7;
-  background: linear-gradient(90deg,#755bea,#ff72c0);
+	background: linear-gradient(90deg,#0162c8,#55e7fc);
+  
   transform: scale(1.1);
 }
 
