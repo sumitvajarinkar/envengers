@@ -229,11 +229,11 @@ footer {
   footer span{
 	color: greenyellow;
 	text-decoration: underline white;
-}
-footer span:hover{
+  }
+  footer span:hover{
 	color: greenyellow;
 	  text-decoration :underline greenyellow;
-  }
+   }
 
   /* Media queries */
 @media screen and (max-width: 768px) {
