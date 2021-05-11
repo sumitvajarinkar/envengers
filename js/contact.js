@@ -27,21 +27,35 @@ autoStart: true,
         loop: true,
           delay: 100,
           
-        });
+        });     
 
-        
-function SendMail(paramas){
+
+document.querySelector("#contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var name = document
+    .querySelector("#contactForm")
+    .getElementsByTagName("input")[0].value;
+  var email = document
+    .querySelector("#contactForm")
+    .getElementsByTagName("input")[1].value;
+  var mob = document
+    .querySelector("#contactForm")
+    .getElementsByTagName("input")[1].value;
+  var message = document
+    .querySelector("#contactForm")
+    .getElementsByTagName("textarea")[0].value;
+
   var teamGreenies={
     fname:document.getElementById("fname").value,
     mail:document.getElementById("mail").value,
     mob:document.getElementById("mob").value,
     msg:document.getElementById("msg").value,
-  };
-  emailjs.send('service_3xhvthi','template_u2xjoqk',teamGreenies )
-  .then(function(res){
-    console.log('Success',res.status);
-  });
-    alert("Your message is successfully sent.");
-}
+    };
 
-
+  emailjs.send('service_3xhvthi','template_u2xjoqk', teamGreenies).then(
+    function (response) {
+      console.log("SUCCESS!", response.status, response.text);
+      
+    }
+  );
+});
