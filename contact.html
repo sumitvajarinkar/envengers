@@ -42,35 +42,34 @@
   </nav>
   
   <!-- Form -->
-  <div id="error"></div>
-  <form class="contact">
+  <form class="contact" id="contactForm">
     <h1 id="formtitle"></h1>
     <div class="text">
       <label>Full name :</label>
-      <input type="text" id="fname" placeholder="Enter your good name !"/>
+      <input type="text" id="fname" required placeholder="Enter your good name !"/>
     </div>
     <div class="text">
       <label>Email :</label>
-      <input type="email" id="mail" placeholder="Enter your email ID"/>
+      <input type="email" id="mail" required placeholder="Enter your email ID"/>
     </div>
     <div class="text">
       <label>Mobile no. :</label>
-      <input type="number" id="mob" placeholder="Enter your mobile number"/>
+      <input type="number" id="mob" required placeholder="Enter your mobile number"/>
     </div>
     <div class="text">
       <label>Message :</label>
-      <textarea type="text" id="msg" placeholder="Enter your message"></textarea>
+      <textarea type="text" id="msg" required placeholder="Enter your message"></textarea>
     </div>
-    <button class="button" type="submit" onclick="SendMail()">Send</button>
+    <button class="button" id="btn" type="submit">Send</button>
   </form>
   
    <!-- Footer -->
   
- <footer>
+   <footer>
     <p>
-    <h4>Copyright 2021 | By Team <a href="https://github.com/sumitvajarinkar" target="_blank"><span>Greenies</span></a>&nbsp;<img
-        src="./logo/favicon.png" alt=""></a></h4>
-    </p>
+      <h4>Copyright 2021 | By Team <a href="https://github.com/sumitvajarinkar"><span>Greenies</span></a>&nbsp;<img
+          src="./logo/favicon.png" alt=""></a></h4>
+      </p>
   </footer>
   
   <!-- Typewriter library -->
