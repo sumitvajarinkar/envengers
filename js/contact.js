@@ -31,20 +31,21 @@ autoStart: true,
 
 
 document.querySelector("#contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
   var name = document
-    .querySelector("#contactForm")
-    .getElementsByTagName("input")[0].value;
+  .querySelector("#contactForm")
+  .getElementsByTagName("input")[0].value;
   var email = document
-    .querySelector("#contactForm")
-    .getElementsByTagName("input")[1].value;
+  .querySelector("#contactForm")
+  .getElementsByTagName("input")[1].value;
   var mob = document
-    .querySelector("#contactForm")
-    .getElementsByTagName("input")[1].value;
+  .querySelector("#contactForm")
+  .getElementsByTagName("input")[1].value;
   var message = document
-    .querySelector("#contactForm")
-    .getElementsByTagName("textarea")[0].value;
-
+  .querySelector("#contactForm")
+  .getElementsByTagName("textarea")[0].value;
+  
+  e.preventDefault();
+  sweetAlert("Thank you !\nYour message is sent.")
   var teamGreenies={
     fname:document.getElementById("fname").value,
     mail:document.getElementById("mail").value,
@@ -58,4 +59,8 @@ document.querySelector("#contactForm").addEventListener("submit", function (e) {
       
     }
   );
+  document.getElementById('fname').value="";
+			document.getElementById('mail').value="";
+			document.getElementById('mob').value="";
+			document.getElementById('msg').value="";
 });
