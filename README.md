@@ -4,13 +4,22 @@
 <h3>Main theme :</h3><br>
 <p>1. Donation: To raise funds for the development of environmental bodies in the areas.<br>
 2. Chatapp: Realtime chat app to collaborate with people from various regions for contributing to the environment.</p>
-<h3>Live project <a href="https://sumitvajarinkar.github.io/Greenies/" target="_blank">greenies.me</a></h3>
+
+<h3>Live project link : <a href="https://sumitvajarinkar.github.io/Greenies/" target="_blank">greenies.me</a></h3>
 
 
-<p style="font-weight:bold; color: gray;">Technologies used:</p>
+## Technologies used :
 <span>HTML, CSS, JS, Node.JS, Express.JS, Socket.io</span><br>
 <br>
-<p style="font-weight:bold; color: gray;">Libraries and API used :</p>
+
+## Features
+
+- Realtime chat with room code
+- Donate money (In demo mode)
+- Attractive UI
+- Responsive website
+ 
+## Libraries and API used :
 <ol>
     <li><a href="https://github.com/tameemsafi/typewriterjs" target="_blank">TypewriterJS</a></li>
     <li><a href="https://www.emailjs.com/" target="_blank">EmailJS</a></li>
